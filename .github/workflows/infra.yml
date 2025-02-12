@@ -1,6 +1,6 @@
 name: 'Terraform Infra'
 
-on:
+  on:
   push:
     branches:
       - infra
