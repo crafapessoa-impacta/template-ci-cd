@@ -1,5 +1,4 @@
 name: 'Terraform Infra'
-
   on:
   push:
     branches:
