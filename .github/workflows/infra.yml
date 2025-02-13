@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - infra
-  env: null
+env:
   TF_VERSION: 1.10.5
   DESTROY: false
   ENVIRONMENT: prod
-  jobs: null
+jobs:
   terraform:
     name: Deploy Infra
     runs-on: ubuntu-latest
